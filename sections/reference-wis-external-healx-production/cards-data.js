@@ -25,30 +25,15 @@ window.sopCardSets["reference-wis-external-healx-production"] = {
     {
       tag: "Button",
       title: "WI Links",
-      summary: "Open the WI references.",
-      media: [
-        {
-          type: "button",
-          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/Work Instructions/Work Instruction - HealX/DMS-Work-Instruction-HealX-Production-Packaging-at-Ameripac%5bHLX-WI-2731_A%5d-9377185839.aspx",
-          buttonLabel: "WI 2731",
-          caption: "Open WI 2731",
-        },
-        {
-          type: "button",
-          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/Work Instructions/Work Instruction - HealX/Sheeted HealX - G-WI-HS/DMS-Work-Instruction-Sheeted-HealX-Production-Packaging-at-Ameripac-%5bHLX-WI-2732_A%5d-9378234416.aspx",
-          buttonLabel: "WI 2732",
-          caption: "Open WI 2732",
-        },
-        {
-          type: "button",
-          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/Work Instructions/Work Instruction - HealX/DMS-Work-Instruction-HealX-Acceptance-Test---Outsourced-Vendor-%5bHLX-WI-2737-A%5d-9033252865.aspx",
-          buttonLabel: "WI 2737",
-          caption: "Open WI 2737",
-        }, 
+      summary: "Select a reference WI to review its procedure cards.",
+      sectionButtons: [
+        { label: "WI 2731", targetTag: "WI 2731" },
+        { label: "WI 2732", targetTag: "WI 2732" },
+        { label: "WI 2737", targetTag: "WI 2737" },
       ],
     },
     {
-      tag: "Basic",
+      tag: "WI 2731",
       title: "WI 2731",
       summary:
         "1. Ensure all employees have viewed the training video prior to beginning the job.\n2. Put on Powder Free Nitrile Gloves.\n3. Wipe all work surfaces with an alcohol wipe.\n4. Ensure the label counter is calibrated with Rolled HealX (HLX 001-001).\n5. Ensure the lot code of the box matches the lot code assigned on the Work Order.\n6. Ensure the lot code of the dots matches the lot code on the box and the lot code assigned on the Work Order.\n7. Erect box (HLX 001-002); see photo 1 on page 3 and do not insert the clip.\n8. Place wafer seal on the bottom of the box to seal.\n9. Wipe the label counter prior to use.",
@@ -74,7 +59,7 @@ window.sopCardSets["reference-wis-external-healx-production"] = {
       ],
     },
     {
-      tag: "Basic",
+      tag: "WI 2732",
       title: "WI 2732",
       summary:
         "1. Ensure all employees have viewed the training video prior to beginning the job.\n2. Put on Powder Free Nitrile Gloves.\n3. Wipe all work surfaces with an alcohol wipe.\n4. Erect envelope (HLX 002-002), beginning with the white side facing up (Picture 1).\n5. Insert 3 sheets of HealX; 2 sheets should be facing away from you while the top is facing toward you (Picture 2).\n6. Place velcro stickers (2ea), one on the top and bottom of the envelope (Picture 3).\n7. Ensure the lot code of the box matches the lot code assigned on the Work Order.\n8. Place 15ea all facing forward into the shrink tunnel.\n9. Place shrink-wrapped 15ea into the shipper.\n10. Tape and seal the shipper closed and place the master shipper label.",
@@ -93,7 +78,7 @@ window.sopCardSets["reference-wis-external-healx-production"] = {
       ],
     },
     {
-      tag: "Basic",
+      tag: "WI 2737",
       title: "WI 2737",
       summary:
         "1. Collect HealX dots for the Lot Under Test according to the L2 AQL4 sampling plan.\n2. Affix the collected HealX samples to a printed HealX Acceptance Test Sampling Form [HLX-FRM-2203].\n3. Scan the HealX sampling sheet at 1200 dpi using the scanner.\n4. Send scanned HealX sampling sheets to Swift Medical.",
