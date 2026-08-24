@@ -70,8 +70,91 @@ window.sopCardSets["wi-2141"] = {
       title: "4.1 Dimensional Inspection",
       summary:
         "Test ID: SINP-0010. Test Name: Main Board and Ring Board (PCB) Dimensional Inspection.\n\nTraceability: PCB-DIM-0010, PCB-DIM-0020, PCB-DIM-0030, PCB-DIM-0040.\n\nTools and Items Required: Caliper (EQUIP-001).",
-      body:
-        "1. Collect PCBs for the Lot Under Test according to General - Inspection level I - AQL Level 4.0 sampling plan.\n\n2. Using the calipers, measure the length, width, and thickness of each driver board sample. The expected range of dimensions for each are listed in SIN-FRM-2206 for PCBs.\n\n3. Using the calipers, measure the length, width, and thickness of each ring board sample. The expected range of dimensions for each are listed in SIN-FRM-2206 for PCBs.",
+      body: "1. Collect PCBs for the Lot Under Test according to General - Inspection level I - AQL Level 4.0 sampling plan.",
+    },
+    {
+      tag: "4.1 Driver Board",
+      title: "4.1 Driver Board: Length Measurement",
+      summary:
+        "2. Using the calipers, measure the length of each driver board sample. The expected range of dimensions for each are listed in SIN-FRM-2206 for PCBs.",
+      media: [
+        {
+          type: "image",
+          src: "./sections/wi-2141/images/4-1-driver-length.png",
+          alt: "Driver board length measurement",
+          caption: "Length measurement",
+        },
+      ],
+    },
+    {
+      tag: "4.1 Driver Width",
+      title: "4.1 Driver Board: Width Measurement",
+      summary:
+        "2. Using the calipers, measure the width of each driver board sample. The expected range of dimensions for each are listed in SIN-FRM-2206 for PCBs.",
+      media: [
+        {
+          type: "image",
+          src: "./sections/wi-2141/images/4-1-driver-width.png",
+          alt: "Driver board width measurement",
+          caption: "Width measurement",
+        },
+      ],
+    },
+    {
+      tag: "4.1 Driver Thickness",
+      title: "4.1 Driver Board: Thickness Measurement",
+      summary:
+        "2. Using the calipers, measure the thickness of each driver board sample. The expected range of dimensions for each are listed in SIN-FRM-2206 for PCBs.",
+      media: [
+        {
+          type: "image",
+          src: "./sections/wi-2141/images/4-1-driver-thickness.png",
+          alt: "Driver board thickness measurement",
+          caption: "Thickness measurement",
+        },
+      ],
+    },
+    {
+      tag: "4.1 Ring Board",
+      title: "4.1 Ring Board: Length Measurement",
+      summary:
+        "3. Using the calipers, measure the length of each ring board sample. The expected range of dimensions for each are listed in SIN-FRM-2206 for PCBs.",
+      media: [
+        {
+          type: "image",
+          src: "./sections/wi-2141/images/4-1-ring-length.png",
+          alt: "Ring board length measurement",
+          caption: "Length measurement",
+        },
+      ],
+    },
+    {
+      tag: "4.1 Ring Width",
+      title: "4.1 Ring Board: Width Measurement",
+      summary:
+        "3. Using the calipers, measure the width of each ring board sample. The expected range of dimensions for each are listed in SIN-FRM-2206 for PCBs.",
+      media: [
+        {
+          type: "image",
+          src: "./sections/wi-2141/images/4-1-ring-width.png",
+          alt: "Ring board width measurement",
+          caption: "Width measurement",
+        },
+      ],
+    },
+    {
+      tag: "4.1 Ring Thickness",
+      title: "4.1 Ring Board: Thickness Measurement",
+      summary:
+        "3. Using the calipers, measure the thickness of each ring board sample. The expected range of dimensions for each are listed in SIN-FRM-2206 for PCBs.",
+      media: [
+        {
+          type: "image",
+          src: "./sections/wi-2141/images/4-1-ring-thickness.png",
+          alt: "Ring board thickness measurement",
+          caption: "Thickness measurement",
+        },
+      ],
     },
     {
       tag: "4.2",
@@ -79,7 +162,21 @@ window.sopCardSets["wi-2141"] = {
       summary:
         "Test ID: SINP-0020. Test Name: Main Board and Ring Board (PCB) Physical Inspection.\n\nTraceability: PCB-PHY-0010, PCB-PHY-0020, PCB-PHY-0030, PCB-PHY-0040, PCB-PHY-0050, PCB-PHY-0060, PCB-PHY-0070, PCB-PHY-0080, PCB-PHY-0090, PCB-PHY-0120, PCB-CFR-0010, PCB-CFR-0020, PCB-CFR-0030.\n\nTools and Items Required: Micro-USB connector cable.",
       body:
-        "1. Collect PCBs for the Lot Under Test according to General - Inspection level I - AQL Level 4.0 sampling plan.\n\n2. Ensure the PCBs adhere to the Physical Requirements outlined in SIN-CS-2135. The colour and finish information will be found in the document. Ensure the colour and finish match through visual inspection and other physical requirements match.\n\n3. Inspect the overall form of the PCBs, ensuring there is no damage found. No burrs should be present on the edge of the PCBs (should be smooth). No cracks should be present on the PCBs. The PCBs should not be bent.\n\n4. Refer to the PCB assembly drawings and ensure that the samples match. Visually inspect to see if any components are missing on the PCBs. IE: The component is present in the BOM but not present on the board. Refer to the assembly drawings for what components should be present. Look for any exposed pads on the board which may be a component that has not been placed on the board.\n\n5. Acquire a cable with a micro-USB connector.\n\n6. Plug in the micro-USB cable fully into the driver board to ensure that there are no metal artifacts or debris blocking the port. Check the inside of the port if there are any difficulties with plugging in the cable.",
+        "1. Collect PCBs for the Lot Under Test according to General - Inspection level I - AQL Level 4.0 sampling plan.\n\n2. Ensure the PCBs adhere to the Physical Requirements outlined in SIN-CS-2135. The colour and finish information will be found in the document. Ensure the colour and finish match through visual inspection and other physical requirements match.\n\n3. Inspect the overall form of the PCBs, ensuring there is no damage found. No burrs should be present on the edge of the PCBs (should be smooth). No cracks should be present on the PCBs. The PCBs should not be bent.\n\n4. Refer to the PCB assembly drawings and ensure that the samples match. Visually inspect to see if any components are missing on the PCBs. IE: The component is present in the BOM but not present on the board. Refer to the assembly drawings for what components should be present. Look for any exposed pads on the board which may be a component that has not been placed on the board.\n\n5. Acquire a cable with a micro-USB connector.",
+    },
+    {
+      tag: "4.2 Step 6",
+      title: "4.2 Physical Inspection: Micro-USB Port",
+      summary:
+        "6. Plug in the micro-USB cable fully into the driver board to ensure that there are no metal artifacts or debris blocking the port. Check the inside of the port if there are any difficulties with plugging in the cable.",
+      media: [
+        {
+          type: "image",
+          src: "./sections/wi-2141/images/4-2-micro-usb-port.png",
+          alt: "Micro-USB cable connected to driver board",
+          caption: "Micro-USB port inspection",
+        },
+      ],
     },
     {
       tag: "4.3",
