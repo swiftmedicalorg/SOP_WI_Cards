@@ -57,6 +57,14 @@ window.sopCardSets["wi-2143"] = {
         "Test ID: SINAT-0010. Test Name: FLIR Lepton Thermal Camera Dimensional Inspection.\n\nTools and Items Required: Calipers.",
       body:
         "1. Collect FLIR Lepton thermal camera for the Lot Under Test according to S4 AQL4 sampling plan.\n\n2. Using Calipers, measure the length and width of the FLIR Lepton thermal camera. Use the below diagram as reference for the expected dimensions of the camera. A copy of the diagram is also located in the acceptance test record.\n\nNOTE: Do not measure the height of the camera, which would involve placing the calipers onto the camera lens, as this may cause damage to the component.",
+      media: [
+        {
+          type: "image",
+          src: "./sections/wi-2143/Screenshot 2026-08-24 at 12.58.14 PM.png",
+          alt: "FLIR Lepton thermal camera mounting dimensions",
+          caption: "Reference diagram for the expected camera dimensions.",
+        },
+      ],
     },
     {
       tag: "4.2",
