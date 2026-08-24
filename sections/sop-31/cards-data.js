@@ -5,7 +5,7 @@ window.sopCardSets["sop-31"] = {
   documentNumber: "31",
   documentTitle: "Feedback and Customer Satisfaction",
   documentUrl:
-    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0031-SOP-Feedback-andCustomer-Satisfaction-[QMS-SOP-0031_C]-8238303208.aspx",
+    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0031-SOP-Feedback-and-Customer-Satisfaction-[QMS-SOP-0031_C]-8238303208.aspx",
   linkLabel: "Open SOP in SharePoint",
   theme: {
     accent: "#9D4EDD",
@@ -23,7 +23,7 @@ window.sopCardSets["sop-31"] = {
       media: [
         {
           type: "button",
-          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0031-SOP-Feedback-andCustomer-Satisfaction-[QMS-SOP-0031_C]-8238303208.aspx",
+          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0031-SOP-Feedback-and-Customer-Satisfaction-[QMS-SOP-0031_C]-8238303208.aspx",
           buttonLabel: "Open SOP in SharePoint",
           caption: "Open SOP in SharePoint",
         },

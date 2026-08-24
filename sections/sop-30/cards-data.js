@@ -5,7 +5,7 @@ window.sopCardSets["sop-30"] = {
   documentNumber: "30",
   documentTitle: "Servicing Provisions",
   documentUrl:
-    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/0030-SOP--ServicingProvisions-[QMS-SOP-0030_F_].aspx",
+    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/0030-SOP--Servicing-Provisions-[QMS-SOP-0030_F_].aspx",
   linkLabel: "Open SOP in SharePoint",
   theme: {
     accent: "#52B788",
@@ -23,7 +23,7 @@ window.sopCardSets["sop-30"] = {
       media: [
         {
           type: "button",
-          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/0030-SOP--ServicingProvisions-[QMS-SOP-0030_F_].aspx",
+          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/0030-SOP--Servicing-Provisions-[QMS-SOP-0030_F_].aspx",
           buttonLabel: "Open SOP in SharePoint",
           caption: "Open SOP in SharePoint",
         },

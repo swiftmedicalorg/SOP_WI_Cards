@@ -10,7 +10,7 @@ const cards = [
     description: 'This procedure describes the system, instructions and responsibilities for opening, managing, tracking, and closing out corrective and preventative actions at Swift.',
     button: {
       label: 'Open SOP in SharePoint',
-      url: 'https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0041-SOP-Corrective-and-Preventative-Action-[QMS-SOP0041_C]-8247877478.aspx'
+      url: 'https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0041-SOP-Corrective-and-Preventative-Action-[QMS-SOP-0041_C]-8247877478.aspx'
     }
   },
   {

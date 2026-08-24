@@ -5,7 +5,7 @@ window.sopCardSets["sop-25"] = {
   documentNumber: "25",
   documentTitle: "Supplier Evaluation and Monitoring Process",
   documentUrl:
-    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0025-SOP-SupplierEvaluation-and-Monitoring-[QMS-SOP0025_F]-10055516161.aspx",
+    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0025-SOP-Supplier-Evaluation-and-Monitoring-[QMS-SOP-0025_F]-10055516161.aspx",
   description: "",
   theme: {
     accent: "#D65B9C",
@@ -28,7 +28,7 @@ window.sopCardSets["sop-25"] = {
       media: [
         {
           type: "button",
-          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0025-SOP-SupplierEvaluation-and-Monitoring-[QMS-SOP0025_F]-10055516161.aspx",
+          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0025-SOP-Supplier-Evaluation-and-Monitoring-[QMS-SOP-0025_F]-10055516161.aspx",
           caption: "Open SOP in SharePoint",
           buttonLabel: "Open SOP in SharePoint",
         },

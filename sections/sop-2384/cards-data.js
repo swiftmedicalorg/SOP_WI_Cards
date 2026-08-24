@@ -10,7 +10,7 @@ const cards = [
     description: 'This procedure involves monitoring and analyzing publicly available regulatory information to maintain Quality Management System compliance and product design and manufacturing adherence to updated requirements.',
     button: {
       label: 'Open SOP in SharePoint',
-      url: 'https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-2384-SOP-RegulatoryIntelligence--[QMS-SOP2384_A]-8373731332.aspx'
+      url: 'https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-[DRAFT]-2384-SOP-Regulatory-Intelligence--[QMS-SOP-2384_B]-10159751169.aspx'
     }
   },
   {

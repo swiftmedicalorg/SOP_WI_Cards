@@ -10,7 +10,7 @@ const cards = [
     description: 'This procedure provides instructions and responsibilities for the recall of distributed Swift devices.',
     button: {
       label: 'Open SOP in SharePoint',
-      url: 'https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0037-SOP-Device-Recall-and-Advisory-Notices-[QMS-SOP0037_G]-8284867855.aspx'
+      url: 'https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0037-SOP-Device-Recall-and-Advisory-Notices-[QMS-SOP-0037_G]-8284867855.aspx'
     }
   },
   {

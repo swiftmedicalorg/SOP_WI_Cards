@@ -5,7 +5,7 @@ window.sopCardSets["sop-28"] = {
   documentNumber: "28",
   documentTitle: "Verification of Purchased Product",
   documentUrl:
-    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0028-SOP-Verification-ofPurchased-Product-[QMS-SOP0028_E]-9380003842.aspx",
+    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0028-SOP-Verification-of-Purchased-Product-[QMS-SOP-0028_E]-9380003842.aspx",
   description: "",
   theme: {
     accent: "#5FBD8E",
@@ -28,7 +28,7 @@ window.sopCardSets["sop-28"] = {
       media: [
         {
           type: "button",
-          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0028-SOP-Verification-ofPurchased-Product-[QMS-SOP0028_E]-9380003842.aspx",
+          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0028-SOP-Verification-of-Purchased-Product-[QMS-SOP-0028_E]-9380003842.aspx",
           caption: "Open SOP in SharePoint",
           buttonLabel: "Open SOP in SharePoint",
         },

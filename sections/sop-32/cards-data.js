@@ -5,7 +5,7 @@ window.sopCardSets["sop-32"] = {
   documentNumber: "32",
   documentTitle: "Quality System Audits",
   documentUrl:
-    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0032-SOP-QualitySystem-Audits-[QMS-SOP-0032_G]-9553772545.aspx",
+    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0032-SOP-Quality-System-Audits-[QMS-SOP-0032_G]-9553772545.aspx",
   linkLabel: "Open SOP in SharePoint",
   theme: {
     accent: "#5B9BD5",
@@ -23,7 +23,7 @@ window.sopCardSets["sop-32"] = {
       media: [
         {
           type: "button",
-          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0032-SOP-QualitySystem-Audits-[QMS-SOP-0032_G]-9553772545.aspx",
+          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0032-SOP-Quality-System-Audits-[QMS-SOP-0032_G]-9553772545.aspx",
           buttonLabel: "Open SOP in SharePoint",
           caption: "Open SOP in SharePoint",
         },

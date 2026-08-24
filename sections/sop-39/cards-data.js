@@ -10,7 +10,7 @@ const cards = [
     description: 'This SOP describes the system for collecting and critically evaluating relevant data on an ongoing basis throughout the post production phase of all products manufactured by Swift in order to monitor their clinical performance.',
     button: {
       label: 'Open SOP in SharePoint',
-      url: 'https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0039-SOP-Post-MarketSurveillance-[QMS-SOP0039_E]-8355643393.aspx'
+      url: 'https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0039-SOP-Post-Market-Surveillance-[QMS-SOP-0039_E]-8355643393.aspx'
     }
   },
   {

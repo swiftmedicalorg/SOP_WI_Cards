@@ -3,6 +3,8 @@
         "/^node --check app\\.js && node --check cards-data\\.js$/": {
             "approve": true,
             "matchCommandLine": true
-        }
+        },
+        "continue": true,
+        "printf": true
     }
 }

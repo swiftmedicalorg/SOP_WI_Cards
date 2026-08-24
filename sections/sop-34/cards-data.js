@@ -10,7 +10,7 @@ const cards = [
     description: 'This procedure provides a system and instructions for collecting, analyzing and reporting data on the performance of the Swift Quality Management System.',
     button: {
       label: 'Open SOP in SharePoint',
-      url: 'https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0034-SOP-Analysis-ofData-[QMS-SOP0034_D]-8238303228.aspx'
+      url: 'https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0034-SOP-Analysis-of-Data-[QMS-SOP-0034_D]-8238303228.aspx'
     }
   },
   {

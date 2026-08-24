@@ -5,7 +5,7 @@ window.sopCardSets["sop-29"] = {
   documentNumber: "29",
   documentTitle: "Control of Inspection, Measuring and Test Equipment",
   documentUrl:
-    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0029-SOP-Control-ofInspection,-Measuring-and-TestEquipment-[QMS-SOP0029_F]-9377874042.aspx",
+    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0029-SOP-Control-of-Inspection,-Measuring-and-Test-Equipment-[QMS-SOP-0029_G]-10159554568.aspx",
   linkLabel: "Open SOP in SharePoint",
   theme: {
     accent: "#6C63FF",
@@ -23,7 +23,7 @@ window.sopCardSets["sop-29"] = {
       media: [
         {
           type: "button",
-          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0029-SOP-Control-ofInspection,-Measuring-and-TestEquipment-[QMS-SOP0029_F]-9377874042.aspx",
+          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0029-SOP-Control-of-Inspection,-Measuring-and-Test-Equipment-[QMS-SOP-0029_G]-10159554568.aspx",
           buttonLabel: "Open SOP in SharePoint",
           caption: "Open SOP in SharePoint",
         },

@@ -10,7 +10,7 @@ const cards = [
     description: 'This course provides instructions and a system for handling, initiating, receiving, resolving and maintaining records of customer complaints and other customer feedback relating to the quality of Swift products.',
     button: {
       label: 'Open SOP in SharePoint',
-      url: 'https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0035-SOP-ComplaintHandling-[QMS-SOP0035_K]-9379218301.aspx'
+      url: 'https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0035-SOP-Complaint-Handling-[QMS-SOP-0035_K]-9379218301.aspx'
     }
   },
   {

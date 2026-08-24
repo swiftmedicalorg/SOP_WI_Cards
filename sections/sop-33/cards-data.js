@@ -10,7 +10,7 @@ const cards = [
     description: 'This procedure governs the handling of non-conforming products, both produced and received by Swift, to ensure quality of input and output. Quality of input = quality of output to meet customer specifications.',
     button: {
       label: 'Open SOP in SharePoint',
-      url: 'https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0033-SOP-Control-ofNon-Conforming-Product-[QMS-SOPOp0033_E]-8747679745.aspx'
+      url: 'https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0033-SOP-Control-of-Non-Conforming-Product-[QMS-SOP-0033_E]-8747679745.aspx'
     }
   },
   {
