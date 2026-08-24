@@ -44,7 +44,7 @@ window.sopCardSets["reference-wis-external-healx-production"] = {
           src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/Work Instructions/Work Instruction - HealX/DMS-Work-Instruction-HealX-Acceptance-Test---Outsourced-Vendor-%5bHLX-WI-2737-A%5d-9033252865.aspx",
           buttonLabel: "WI 2737",
           caption: "Open WI 2737",
-        },
+        }, 
       ],
     },
     {
@@ -54,7 +54,7 @@ window.sopCardSets["reference-wis-external-healx-production"] = {
         "1. Ensure all employees have viewed the training video prior to beginning the job.\n2. Put on Powder Free Nitrile Gloves.\n3. Wipe all work surfaces with an alcohol wipe.\n4. Ensure the label counter is calibrated with Rolled HealX (HLX 001-001).\n5. Ensure the lot code of the box matches the lot code assigned on the Work Order.\n6. Ensure the lot code of the dots matches the lot code on the box and the lot code assigned on the Work Order.\n7. Erect box (HLX 001-002); see photo 1 on page 3 and do not insert the clip.\n8. Place wafer seal on the bottom of the box to seal.\n9. Wipe the label counter prior to use.",
       body: "Please contact Account Executive Chirag at chirag.trivedi@cdw.ca directly through Halo.",
     },
-    {
+    { 
       tag: "Basic",
       title: "WI 2731",
       summary:
