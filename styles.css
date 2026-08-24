@@ -881,3 +881,128 @@ figcaption {
     border: 0;
   }
 }
+
+@media (max-height: 560px) {
+  body {
+    height: 100dvh;
+    overflow: hidden;
+  }
+
+  .app-shell {
+    height: 100dvh;
+    padding: 0.5rem 0;
+  }
+
+  .hero {
+    margin-bottom: 0.5rem;
+  }
+
+  .hero h1 {
+    font-size: 1.25rem;
+  }
+
+  .hero-copy {
+    margin: 0.25rem 0 0;
+    font-size: 0.85rem;
+    line-height: 1.25;
+  }
+
+  .player {
+    padding: 0.5rem;
+    border-radius: 18px;
+  }
+
+  .player-toolbar {
+    min-height: 1.75rem;
+  }
+
+  .player-status {
+    gap: 0.4rem;
+    font-size: 0.85rem;
+  }
+
+  .pill {
+    padding: 0.25rem 0.6rem;
+    font-size: 0.72rem;
+  }
+
+  .restart-button {
+    padding: 0.35rem 0.6rem;
+    font-size: 0.78rem;
+  }
+
+  .card-frame {
+    height: calc(100dvh - 6.5rem);
+    min-height: 0;
+    margin: 0.5rem 0;
+  }
+
+  .learning-card,
+  .card-peek,
+  .card-front {
+    height: 100%;
+    min-height: 0;
+  }
+
+  .card-face {
+    padding: 0.8rem;
+    border-radius: 18px;
+  }
+
+  .card-front,
+  .card-back {
+    overflow: hidden;
+  }
+
+  .card-front h2,
+  .card-back h2 {
+    margin: 0.35rem 0;
+    font-size: 1.7rem;
+  }
+
+  .card-front p,
+  .card-back p,
+  .bullet-list,
+  figcaption {
+    font-size: 0.9rem;
+    line-height: 1.3;
+  }
+
+  .front-action,
+  .check-question {
+    margin-top: 0.6rem;
+  }
+
+  .front-wi-button,
+  .question-choice,
+  .question-submit {
+    padding: 0.55rem 0.7rem;
+    font-size: 0.85rem;
+  }
+
+  .check-question {
+    padding: 0.6rem;
+    border-radius: 12px;
+  }
+
+  .question-choices {
+    gap: 0.35rem;
+  }
+
+  .question-choice {
+    gap: 0.45rem;
+  }
+
+  .question-choice::before {
+    width: 0.9rem;
+    height: 0.9rem;
+  }
+
+  .media-grid {
+    gap: 0.5rem;
+  }
+
+  .media-card figcaption {
+    padding: 0.4rem 0.6rem 0.5rem;
+  }
+}
