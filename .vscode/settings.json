@@ -14,6 +14,19 @@
             "approve": true,
             "matchCommandLine": true
         },
-        "true": true
+        "true": true,
+        "command": true,
+        "/^python3 - <<'PY'\nmodules = \\['fitz', 'PIL', 'pypdf', 'pdf2image'\\]\nfor name in modules:\n    try:\n        module = __import__\\(name\\)\n        print\\(f'\\{name\\}: available'\\)\n    except Exception as error:\n        print\\(f'\\{name\\}: unavailable \\(\\{error\\.__class__\\.__name__\\}\\)'\\)\nPY$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python3 - <<'PY'\nimport fitz\nfrom pathlib import Path\npdf = next\\(Path\\('sections/wi-2141'\\)\\.glob\\('\\*\\.pdf'\\)\\)\ndoc = fitz\\.open\\(pdf\\)\nprint\\(f'pages=\\{len\\(doc\\)\\}'\\)\nfor page_number, page in enumerate\\(doc, 1\\):\n    images = page\\.get_images\\(full=True\\)\n    print\\(f'page \\{page_number\\}: \\{len\\(images\\)\\} embedded images'\\)\n    for image_index, image in enumerate\\(images, 1\\):\n        width, height = image\\[2\\], image\\[3\\]\n        print\\(f'  image \\{image_index\\}: \\{width\\}x\\{height\\}'\\)\nPY$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^node --check sections/wi-2141/cards-data\\.js && node --check app\\.js && python3 -m py_compile scripts/extract-wi-2141-images\\.py && node - <<'NODE'\nconst fs = require\\('fs'\\);\nconst vm = require\\('vm'\\);\nconst context = \\{ window: \\{ sopCardSets: \\{\\} \\} \\};\nvm\\.runInNewContext\\(fs\\.readFileSync\\('sections/wi-2141/cards-data\\.js', 'utf8'\\), context\\);\nconst deck = context\\.window\\.sopCardSets\\['wi-2141'\\];\nif \\(deck\\.cards\\.length !== 17\\) throw new Error\\(`Expected 17 cards, got \\$\\{deck\\.cards\\.length\\}`\\);\nconst intro = deck\\.cards\\.find\\(\\(card\\) => card\\.tag === 'Introduction'\\);\nif \\(intro\\.sectionButtons\\.length !== 4\\) throw new Error\\('Expected four section buttons'\\);\nfor \\(const button of intro\\.sectionButtons\\) if \\(!deck\\.cards\\.some\\(\\(card\\) => card\\.tag === button\\.targetTag\\)\\) throw new Error\\(`Missing target \\$\\{button\\.targetTag\\}`\\);\nconst localImages = deck\\.cards\\.flatMap\\(\\(card\\) => \\(card\\.media \\|\\| \\[\\]\\)\\.filter\\(\\(media\\) => media\\.type === 'image'\\)\\.map\\(\\(media\\) => media\\.src\\)\\);\nif \\(localImages\\.length !== 7 \\|\\| localImages\\.some\\(\\(src\\) => !fs\\.existsSync\\(src\\.slice\\(2\\)\\)\\)\\) throw new Error\\('Image references are incomplete'\\);\nconsole\\.log\\(`WI 2141 validated: \\$\\{deck\\.cards\\.length\\} cards, \\$\\{localImages\\.length\\} local images, four section targets`\\);\nNODE\ngit diff --check$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
     }
 }
