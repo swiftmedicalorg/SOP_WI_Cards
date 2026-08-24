@@ -5,7 +5,7 @@ window.sopCardSets["sop-23"] = {
   documentNumber: "23",
   documentTitle: "Change Control",
   documentUrl:
-    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0023-SOP-ChangeControl-[QMS-SOP0023_F]-8251576036.aspx",
+    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0023-SOP-Change-Control-[QMS-SOP-0023_F]-8251576036.aspx",
   description: "",
   theme: {
     accent: "#6B5B95",
@@ -28,7 +28,7 @@ window.sopCardSets["sop-23"] = {
       media: [
         {
           type: "button",
-          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0023-SOP-ChangeControl-[QMS-SOP0023_F]-8251576036.aspx",
+          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0023-SOP-Change-Control-[QMS-SOP-0023_F]-8251576036.aspx",
           caption: "Open SOP in SharePoint",
           buttonLabel: "Open SOP in SharePoint",
         },
