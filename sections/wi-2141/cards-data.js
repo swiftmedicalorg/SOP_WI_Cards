@@ -46,26 +46,6 @@ window.sopCardSets["wi-2141"] = {
         "This work instruction applies to the acceptance of the Sinatra Driver Board and Ring Board intended to be used with the Sinatra (Ray 1) system. This work instruction is only valid for the Printed Circuit Boards (PCB) that are on version 0.1.4.",
     },
     {
-      tag: "References",
-      title: "2. Applicable and Reference Documents",
-      summary:
-        "Applicable standard: ANSI/ASQ Z1.4-2003 (EXT-STD-0075).\n\nReference documents: Sinatra Main Board and Ring Board (PCB) Procurement Specification (SIN-CS-2135); Sinatra PCB Drawing - Driver Board (Driverboard_Assembly_Drawing_v0.1.4.pdf); Sinatra PCB Drawing - Ring Board (Ringboard_Assembly_Drawing_v0.1.4.pdf); Device Integrated Verification and Validation Plan (SIN-PLN-2125); Sinatra Master Component Acceptance Test Record (SIN-FRM-2206).",
-    },
-    {
-      tag: "Training",
-      title: "3. Training Required",
-      summary:
-        "YES - all persons performing acceptance testing on the Sinatra PCBs are to be trained prior to carrying out these procedures.",
-    },
-    {
-      tag: "Work Instructions",
-      title: "4. Work Instructions",
-      summary:
-        "Complete the work instructions below and document in a copy of Sinatra Master Component Acceptance Test Record (SIN-FRM-2206) under the PCB tab. Upon completion, enter the document as a new record (REC type) in the Document Management System.",
-      body:
-        "Inspection of the incoming Sinatra Driver Board and Ring Board (PCB) shall be performed prior to production. For each lot, an inspection lot shall be sampled throughout the received lot as per the Device Integrated Verification and Validation plan (SIN-PLN-2125).",
-    },
-    {
       tag: "4.1",
       title: "4.1 Dimensional Inspection",
       summary:
