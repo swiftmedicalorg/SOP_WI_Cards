@@ -5,7 +5,7 @@ window.sopCardSets["sop-27"] = {
   documentNumber: "27",
   documentTitle: "Labeling and Packaging",
   documentUrl:
-    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0027-SOP-Labelling-andPackaging-[QMS-SOP0027_E]-8370651137.aspx",
+    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0027-SOP-Labelling-and-Packaging-[QMS-SOP-0027_E]-8370651137.aspx",
   description: "",
   theme: {
     accent: "#E8989E",
@@ -28,7 +28,7 @@ window.sopCardSets["sop-27"] = {
       media: [
         {
           type: "button",
-          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0027-SOP-Labelling-andPackaging-[QMS-SOP0027_E]-8370651137.aspx",
+          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0027-SOP-Labelling-and-Packaging-[QMS-SOP-0027_E]-8370651137.aspx",
           caption: "Open SOP in SharePoint",
           buttonLabel: "Open SOP in SharePoint",
         },
