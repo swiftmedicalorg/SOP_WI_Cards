@@ -7,12 +7,12 @@ SOURCE_PATH = next(Path("sections/wi-2185").glob("*.png"))
 OUTPUT_DIR = Path("sections/wi-2185/images")
 
 IMAGE_MANIFEST = {
-    "4-1-dimensions.png": (750, 2820, 1100, 3220),
-    "4-2-connector-fit.png": (760, 3500, 1100, 3900),
-    "4-3-connector-location.png": (760, 3970, 1100, 4300),
-    "4-3-multimeter-setting.png": (760, 4280, 1100, 4680),
-    "4-3-probe-placement.png": (730, 4630, 1100, 5010),
-    "4-3-voltage-result.png": (760, 4960, 1100, 5350),
+    "4-1-dimensions.png": (770, 2820, 1030, 3055),
+    "4-2-connector-fit.png": (815, 3360, 1030, 3545),
+    "4-3-connector-location.png": (775, 3960, 990, 4190),
+    "4-3-multimeter-setting.png": (785, 4242, 980, 4445),
+    "4-3-probe-placement.png": (675, 4615, 1075, 4805),
+    "4-3-voltage-result.png": (785, 4940, 980, 5150),
 }
 
 
