@@ -102,6 +102,32 @@ button:disabled {
   line-height: 1.6;
 }
 
+.deck-picker {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  max-width: 900px;
+  margin-top: 1rem;
+}
+
+.deck-picker-field {
+  display: grid;
+  gap: 0.35rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.deck-picker select {
+  width: 100%;
+  min-width: 0;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  background: var(--surface);
+}
+
 .player {
   padding: 1rem;
   border: 1px solid var(--border);
@@ -905,6 +931,21 @@ figcaption {
     margin: 0.25rem 0 0;
     font-size: 0.85rem;
     line-height: 1.25;
+  }
+
+  .deck-picker {
+    gap: 0.4rem;
+    margin-top: 0.4rem;
+  }
+
+  .deck-picker-field {
+    gap: 0.15rem;
+    font-size: 0.7rem;
+  }
+
+  .deck-picker select {
+    padding: 0.35rem 0.5rem;
+    font-size: 0.8rem;
   }
 
   .player {

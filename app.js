@@ -2,6 +2,7 @@
   const cardSets = window.sopCardSets || {};
   const setKeys = Object.keys(cardSets);
   const requestedSet = new URLSearchParams(window.location.search).get("set");
+  const hasValidRequestedSet = Boolean(requestedSet && cardSets[requestedSet]);
   let currentDeck = cardSets[requestedSet] || cardSets[setKeys[0]];
   let visibleCards = [];
 
@@ -21,6 +22,7 @@
   const linkElement = document.getElementById("deck-link");
   const ctaElement = document.getElementById("deck-cta");
   const descriptionElement = document.getElementById("deck-description");
+  const deckPickerElement = document.getElementById("deck-picker");
   const counterElement = document.getElementById("card-counter");
   const cardTagElement = document.getElementById("card-tag");
   const frontTagElement = document.getElementById("front-tag");
@@ -75,6 +77,65 @@
       linkElement.removeAttribute("href");
       ctaElement.textContent = "";
     }
+
+    renderDeckPicker();
+  }
+
+  function renderDeckPicker() {
+    if (hasValidRequestedSet || !deckPickerElement) return;
+
+    const groups = [
+      { label: "SOPs", type: "SOP" },
+      { label: "Work Instructions", type: "WI" },
+      { label: "Swift General Training", type: "other" },
+    ];
+
+    deckPickerElement.innerHTML = "";
+    groups.forEach(function (group) {
+      const matchingKeys = setKeys.filter(function (setKey) {
+        const deck = cardSets[setKey];
+        return group.type === "other"
+          ? deck.documentType !== "SOP" && deck.documentType !== "WI"
+          : deck.documentType === group.type;
+      });
+
+      if (matchingKeys.length === 0) return;
+
+      const label = document.createElement("label");
+      label.className = "deck-picker-field";
+      label.textContent = group.label;
+
+      const select = document.createElement("select");
+      select.name = group.type;
+      select.setAttribute("aria-label", `Select ${group.label}`);
+      matchingKeys.forEach(function (setKey) {
+        const deck = cardSets[setKey];
+        const option = document.createElement("option");
+        option.value = setKey;
+        option.textContent = formatDeckOption(deck, setKey);
+        select.appendChild(option);
+      });
+
+      select.value = matchingKeys.includes(requestedSet) ? requestedSet : matchingKeys[0];
+      select.addEventListener("change", function () {
+        const params = new URLSearchParams(window.location.search);
+        params.set("set", select.value);
+        window.location.search = params.toString();
+      });
+      label.appendChild(select);
+      deckPickerElement.appendChild(label);
+    });
+
+    deckPickerElement.hidden = deckPickerElement.childElementCount === 0;
+  }
+
+  function formatDeckOption(deck, setKey) {
+    const documentName = [deck.documentType, deck.documentNumber]
+      .filter(Boolean)
+      .join(" ");
+    return [documentName, deck.documentTitle || deck.title || setKey]
+      .filter(Boolean)
+      .join(" | ");
   }
 
 
