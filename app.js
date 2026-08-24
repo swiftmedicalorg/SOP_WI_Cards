@@ -3,7 +3,7 @@
   const setKeys = Object.keys(cardSets);
   const requestedSet = new URLSearchParams(window.location.search).get("set");
   const hasValidRequestedSet = Boolean(requestedSet && cardSets[requestedSet]);
-  let currentDeck = cardSets[requestedSet] || cardSets[setKeys[0]];
+  let currentDeck = cardSets[requestedSet] || cardSets.welcome || cardSets[setKeys[0]];
   let visibleCards = [];
 
   if (!currentDeck || !Array.isArray(currentDeck.cards) || currentDeck.cards.length === 0) {
@@ -87,6 +87,7 @@
     const groups = [
       { label: "SOPs", type: "SOP" },
       { label: "Work Instructions", type: "WI" },
+      { label: "Microlearning", type: "Microlearning" },
       { label: "Swift General Training", type: "other" },
     ];
 
@@ -94,8 +95,11 @@
     groups.forEach(function (group) {
       const matchingKeys = setKeys.filter(function (setKey) {
         const deck = cardSets[setKey];
+        if (deck.isPickerIntro) return false;
         return group.type === "other"
-          ? deck.documentType !== "SOP" && deck.documentType !== "WI"
+          ? deck.documentType !== "SOP" &&
+            deck.documentType !== "WI" &&
+            deck.documentType !== "Microlearning"
           : deck.documentType === group.type;
       });
 
