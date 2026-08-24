@@ -5,6 +5,10 @@
             "matchCommandLine": true
         },
         "continue": true,
-        "printf": true
+        "printf": true,
+        "/^node --check sections/sop-2665/cards-data\\.js && node --check app\\.js && node - <<'NODE'\nconst fs = require\\('fs'\\);\nconst vm = require\\('vm'\\);\nconst context = \\{ window: \\{ sopCardSets: \\{\\} \\} \\};\nvm\\.runInNewContext\\(fs\\.readFileSync\\('sections/sop-2665/cards-data\\.js', 'utf8'\\), context\\);\nconst expected = 'https://swiftmedical\\.sharepoint\\.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-2665-SOP-Deidentified-Structured-Dataset-Preparation-for-Disclosure-\\[QMS-SOP-2665_A\\]-8854601753\\.aspx';\nconst deck = context\\.window\\.sopCardSets\\['sop-2665'\\];\nif \\(!deck \\|\\| deck\\.cards\\.length !== 12 \\|\\| deck\\.documentUrl !== expected \\|\\| deck\\.cards\\[1\\]\\.media\\[0\\]\\.src !== expected\\) throw new Error\\('SOP 2665 validation failed'\\);\nconsole\\.log\\(`SOP 2665: \\$\\{deck\\.cards\\.length\\} cards and URL validated`\\);\nNODE\ngit diff --check$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
     }
 }
