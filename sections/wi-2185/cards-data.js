@@ -59,6 +59,14 @@ window.sopCardSets["wi-2185"] = {
         "Test ID: SINB-0010. Test Name: Battery Dimensional Inspection.\n\nTools and Items Required: Calipers (EQUIP-001).",
       body:
         "1. Collect batteries for the Lot Under Test according to S4 AQL4 sampling plan.\n\n2. Using calipers, measure the length, width, and height of the battery. The expected value for each dimension can be found in the acceptance test record. Ensure the dimensions match the specifications within the acceptable range outlined in the acceptance test record.",
+      media: [
+        {
+          type: "image",
+          src: "./sections/wi-2185/images/4-1-dimensions.png",
+          alt: "Battery dimensional inspection diagram",
+          caption: "Battery dimensional inspection reference.",
+        },
+      ],
     },
     {
       tag: "4.2",
@@ -67,6 +75,14 @@ window.sopCardSets["wi-2185"] = {
         "Test ID: SINB-0020. Test Name: Battery Physical Inspection.\n\nTools and Items Required: None.",
       body:
         "1. Collect batteries for the Lot Under Test according to S4 AQL4 sampling plan.\n\n2. Visually inspect the battery for damage or inconsistencies in the structure. Ensure the battery is not damaged and that the physical requirements are met.",
+      media: [
+        {
+          type: "image",
+          src: "./sections/wi-2185/images/4-2-connector-fit.png",
+          alt: "Battery connected to an accepted driverboard",
+          caption: "Step 4: Confirm the battery connector fits the driverboard connector.",
+        },
+      ],
     },
     {
       tag: "4.3",
@@ -74,7 +90,63 @@ window.sopCardSets["wi-2185"] = {
       summary:
         "Test ID: SINB-0030. Test Name: Battery Electrical Inspection.\n\nTools and Items Required: Multimeter.",
       body:
-        "1. Collect batteries for the Lot Under Test according to S4 AQL4 sampling plan.\n\n2. Verify the electrical requirements of the battery using a multimeter and document the readings in the acceptance test record.\n\n3. Verify the battery can be charged using the appropriate connection.\n\n4. Verify the voltage reading is within the acceptable range specified in the acceptance test record.",
+        "1. Collect batteries for the Lot Under Test according to S4 AQL4 sampling plan.",
+    },
+    {
+      tag: "4.3 Step 2",
+      title: "4.3 Electrical Requirements: Connect Battery",
+      summary:
+        "2. Plug battery into an accepted (passed) driverboard. A list of the serial numbers for passed driverboards can be found in the Sinatra Purchasing and Receiving Log [SIN-REC-2162].",
+      media: [
+        {
+          type: "image",
+          src: "./sections/wi-2185/images/4-3-connector-location.png",
+          alt: "Battery connector location on driverboard",
+          caption: "Connector location and wire orientation.",
+        },
+      ],
+    },
+    {
+      tag: "4.3 Step 3",
+      title: "4.3 Electrical Requirements: Set Multimeter",
+      summary:
+        "3. Ensure Multimeter is set up correctly (Equip-011). The selector must be set to the V (DC). DC is indicated by the straight line over the V. The red probe should be connected to the voltage (V) terminal. The black probe should be connected to the common ground (COM) terminal.",
+      media: [
+        {
+          type: "image",
+          src: "./sections/wi-2185/images/4-3-multimeter-setting.png",
+          alt: "Multimeter set to DC voltage",
+          caption: "Multimeter selector and probe connections.",
+        },
+      ],
+    },
+    {
+      tag: "4.3 Step 4",
+      title: "4.3 Electrical Requirements: Probe Battery",
+      summary:
+        "4. Probe voltage and ground of the battery. The red multimeter probe should make contact with the conductive area of the connector next to the red battery wire (positive voltage). The black probe should make contact with the driverboard hole marked with GND (ground).",
+      media: [
+        {
+          type: "image",
+          src: "./sections/wi-2185/images/4-3-probe-placement.png",
+          alt: "Multimeter probes on the battery and driverboard ground",
+          caption: "Probe placement for voltage and ground.",
+        },
+      ],
+    },
+    {
+      tag: "4.3 Step 5",
+      title: "4.3 Electrical Requirements: Read Voltage",
+      summary:
+        "5. Observe voltage result on Multimeter screen. The expected voltage of the battery will range from 3.7V to 4.2V. This will ensure the battery is not undercharged or overcharged at the time of measurement.",
+      media: [
+        {
+          type: "image",
+          src: "./sections/wi-2185/images/4-3-voltage-result.png",
+          alt: "Battery voltage result on multimeter",
+          caption: "Expected voltage reading is 3.7V to 4.2V.",
+        },
+      ],
     },
     {
       tag: "4.4",
