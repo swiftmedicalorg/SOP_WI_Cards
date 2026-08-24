@@ -992,7 +992,7 @@ figcaption {
 
   .card-front,
   .card-back {
-    overflow: hidden;
+    overflow-y: auto;
   }
 
   .card-front h2,

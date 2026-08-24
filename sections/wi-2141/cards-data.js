@@ -161,8 +161,32 @@ window.sopCardSets["wi-2141"] = {
       title: "4.2 Physical Inspection (Including Colour and Finish)",
       summary:
         "Test ID: SINP-0020. Test Name: Main Board and Ring Board (PCB) Physical Inspection.\n\nTraceability: PCB-PHY-0010, PCB-PHY-0020, PCB-PHY-0030, PCB-PHY-0040, PCB-PHY-0050, PCB-PHY-0060, PCB-PHY-0070, PCB-PHY-0080, PCB-PHY-0090, PCB-PHY-0120, PCB-CFR-0010, PCB-CFR-0020, PCB-CFR-0030.\n\nTools and Items Required: Micro-USB connector cable.",
-      body:
-        "1. Collect PCBs for the Lot Under Test according to General - Inspection level I - AQL Level 4.0 sampling plan.\n\n2. Ensure the PCBs adhere to the Physical Requirements outlined in SIN-CS-2135. The colour and finish information will be found in the document. Ensure the colour and finish match through visual inspection and other physical requirements match.\n\n3. Inspect the overall form of the PCBs, ensuring there is no damage found. No burrs should be present on the edge of the PCBs (should be smooth). No cracks should be present on the PCBs. The PCBs should not be bent.\n\n4. Refer to the PCB assembly drawings and ensure that the samples match. Visually inspect to see if any components are missing on the PCBs. IE: The component is present in the BOM but not present on the board. Refer to the assembly drawings for what components should be present. Look for any exposed pads on the board which may be a component that has not been placed on the board.\n\n5. Acquire a cable with a micro-USB connector.",
+      body: "The physical inspection procedure is documented in the following step cards.",
+    },
+    {
+      tag: "4.2 Step 1",
+      title: "4.2 Physical Inspection: Sampling",
+      summary: "1. Collect PCBs for the Lot Under Test according to General - Inspection level I - AQL Level 4.0 sampling plan.",
+    },
+    {
+      tag: "4.2 Step 2",
+      title: "4.2 Physical Inspection: Colour and Finish",
+      summary: "2. Ensure the PCBs adhere to the Physical Requirements outlined in SIN-CS-2135. The colour and finish information will be found in the document. Ensure the colour and finish match through visual inspection and other physical requirements match.",
+    },
+    {
+      tag: "4.2 Step 3",
+      title: "4.2 Physical Inspection: Board Condition",
+      summary: "3. Inspect the overall form of the PCBs, ensuring there is no damage found. No burrs should be present on the edge of the PCBs (should be smooth). No cracks should be present on the PCBs. The PCBs should not be bent.",
+    },
+    {
+      tag: "4.2 Step 4",
+      title: "4.2 Physical Inspection: Assembly Drawings",
+      summary: "4. Refer to the PCB assembly drawings and ensure that the samples match. Visually inspect to see if any components are missing on the PCBs. IE: The component is present in the BOM but not present on the board. Refer to the assembly drawings for what components should be present. Look for any exposed pads on the board which may be a component that has not been placed on the board.",
+    },
+    {
+      tag: "4.2 Step 5",
+      title: "4.2 Physical Inspection: Cable",
+      summary: "5. Acquire a cable with a micro-USB connector.",
     },
     {
       tag: "4.2 Step 6",
