@@ -5,7 +5,7 @@ window.sopCardSets["sop-26"] = {
   documentNumber: "26",
   documentTitle: "Process Validation",
   documentUrl:
-    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0026-SOP-ProcessValidation-[QMS-SOP0026_D]-8251580101.aspx",
+    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0026-SOP-Process-Validation-[QMS-SOP-0026_D]-8251580101.aspx",
   description: "",
   theme: {
     accent: "#1E5BA8",
@@ -28,7 +28,7 @@ window.sopCardSets["sop-26"] = {
       media: [
         {
           type: "button",
-          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0026-SOP-ProcessValidation-[QMS-SOP0026_D]-8251580101.aspx",
+          src: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0026-SOP-Process-Validation-[QMS-SOP-0026_D]-8251580101.aspx",
           caption: "Open SOP in SharePoint",
           buttonLabel: "Open SOP in SharePoint",
         },
