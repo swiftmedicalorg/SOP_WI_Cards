@@ -4,8 +4,8 @@ window.sopCardSets["wi-2935"] = {
   documentType: "WI",
   documentNumber: "2935",
   documentTitle: "Setting Up Client iPhones for MDM",
-  documentUrl: "",
-  linkLabel: "",
+  documentUrl: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/Activating-a-Phone.aspx",
+  linkLabel: "Open WI in SharePoint",
   description: "Step-by-step setup flow after MDM enrollment for client iPhones.",
   theme: {
     accent: "#4f84b7",
