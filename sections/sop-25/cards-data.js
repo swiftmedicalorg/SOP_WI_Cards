@@ -42,9 +42,9 @@ window.sopCardSets["sop-25"] = {
     },
     {
       tag: "Supplier Evals",
-      title: "Supplier Evals",
-      summary: "The Supplier Evaluation and Monitoring Process is used to select and evaluate potential suppliers.",
-      body: "The Supplier Evaluation and Monitoring Process is used to select and evaluate potential suppliers that may satisfy Swift's requirements for specifications, quality, quantity, and standards.\n\nInitial selection personnel must initiate a Supplier Evaluation and Re-evaluation Form and make a declaration of freedom from conflict of interest.",
+      title: "Supplier Re-evaluation",
+      summary: "Suppliers must be re-evaluated when performance, compliance, or risk changes.",
+      body: "The Supplier Evaluation and Monitoring Process is used to select and evaluate potential suppliers that may satisfy Swift's requirements for specifications, quality, quantity, and standards.\n\nSupplier performance, capability, compliance, and risk status must be reviewed periodically and re-evaluated when changes occur or when evidence indicates a need for reassessment.\n\nInitial selection personnel must initiate a Supplier Evaluation and Re-evaluation Form and make a declaration of freedom from conflict of interest.",
     },
     {
       tag: "Full Supplier Review",
@@ -103,8 +103,8 @@ window.sopCardSets["sop-25"] = {
     {
       tag: "Discontinuation",
       title: "Supplier Discontinuation",
-      summary: "A supplier may be discontinued for reasons including ceased operations, no longer required, non-conformance, or performance issues.",
-      body: "A supplier may be discontinued for reasons including, but not limited to:\n- Ceased operations\n- No longer required \/ end of contract\n- Non-conformance \/ non-compliance\n- Performance issues\n\nAll discontinuation decisions must be documented in the Approved Supplier List (QMS-REC-0045), with the reasons.",
+      summary: "A supplier may be discontinued for quality, compliance, performance, or business-related reasons.",
+      body: "A supplier may be discontinued when there is evidence of serious non-conformance, recurring quality concerns, regulatory or compliance issues, performance failure, cessation of operations, or when the product or service is no longer required.\n\nExamples include, but are not limited to:\n- Ceased operations\n- No longer required \/ end of contract\n- Non-conformance \/ non-compliance\n- Repeated performance issues\n- Quality or safety concerns affecting Swift products or services\n\nAll discontinuation decisions must be documented in the Approved Supplier List (QMS-REC-0045), including the justification and rationale.",
     },
     {
       tag: "Complete",
