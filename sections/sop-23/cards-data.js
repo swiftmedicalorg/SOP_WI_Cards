@@ -21,10 +21,10 @@ window.sopCardSets["sop-23"] = {
       body: "SOP 23\nChange Control",
     },
     {
-      tag: "Button",
-      title: "Open SOP in SharePoint",
-      summary: "Open the complete SOP",
-      body: "Open the complete SOP in SharePoint.",
+      tag: "Introduction",
+      title: "Introduction",
+      summary: "This document outlines the process and responsibilities for controlling and documenting medical device product design changes and manufacturing process changes at Swift.",
+      body: "This document outlines the process and responsibilities for controlling and documenting medical device product design changes and manufacturing process changes at Swift.\n\nOpen the complete SOP in SharePoint.",
       media: [
         {
           type: "button",
@@ -33,12 +33,6 @@ window.sopCardSets["sop-23"] = {
           buttonLabel: "Open SOP in SharePoint",
         },
       ],
-    },
-    {
-      tag: "Introduction",
-      title: "Introduction",
-      summary: "This document outlines the process and responsibilities for controlling and documenting medical device product design changes and manufacturing process changes at Swift.",
-      body: "This document outlines the process and responsibilities for controlling and documenting medical device product design changes and manufacturing process changes at Swift.",
     },
     {
       tag: "Change Control",

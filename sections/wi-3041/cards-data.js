@@ -24,11 +24,8 @@ window.sopCardSets["wi-3041"] = {
       title: "Introduction",
       summary:
         "This work instruction outlines the steps taken when there is an iPhone return/replacement submitted through Halo.",
-    },
-    {
-      tag: "Button",
-      title: "Open WI in SharePoint",
-      summary: "Open the complete CDW iPhone RMA work instruction.",
+      body:
+        "This work instruction outlines the steps taken when there is an iPhone return/replacement submitted through Halo.\n\nOpen the complete CDW iPhone RMA work instruction.",
       media: [
         {
           type: "button",

@@ -21,10 +21,10 @@ window.sopCardSets["sop-25"] = {
       body: "SOP 25\nSupplier Evaluation and Monitoring Process",
     },
     {
-      tag: "Button",
-      title: "Open SOP in SharePoint",
-      summary: "Open the complete SOP",
-      body: "Open the complete SOP in SharePoint.",
+      tag: "Introduction",
+      title: "Introduction",
+      summary: "Swift evaluates its suppliers and purchases from those who meet quality requirements.",
+      body: "Swift evaluates its suppliers \/ purchases from those who meet quality requirements.\n\nApproved Suppliers are on the Approved Supplier List.\n\nContractors and consultants (C&Cs) are evaluated and governed by the regulatory team.\n\nOpen the complete SOP in SharePoint.",
       media: [
         {
           type: "button",
@@ -33,12 +33,6 @@ window.sopCardSets["sop-25"] = {
           buttonLabel: "Open SOP in SharePoint",
         },
       ],
-    },
-    {
-      tag: "Introduction",
-      title: "Introduction",
-      summary: "Swift evaluates its suppliers and purchases from those who meet quality requirements.",
-      body: "Swift evaluates its suppliers \/ purchases from those who meet quality requirements.\n\nApproved Suppliers are on the Approved Supplier List.\n\nContractors and consultants (C&Cs) are evaluated and governed by the regulatory team.",
     },
     {
       tag: "Supplier Evals",

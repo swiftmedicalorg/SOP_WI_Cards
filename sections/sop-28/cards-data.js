@@ -21,10 +21,10 @@ window.sopCardSets["sop-28"] = {
       body: "SOP 28\nVerification of Purchased Product",
     },
     {
-      tag: "Button",
-      title: "Open SOP in SharePoint",
-      summary: "Open the complete SOP",
-      body: "Open the complete SOP in SharePoint.",
+      tag: "Introduction",
+      title: "Introduction",
+      summary: "This procedure provides a system and instructions for verification of purchased products and inspections of incoming new materials or products.",
+      body: "This procedure provides a system and instructions for verification of purchased products and inspections of incoming new materials or products.\n\nApplies to on-site verification of purchased materials and products such as HealX, HealX packaging, and any other finished, packaged, and labeled Swift products.\n\nOpen the complete SOP in SharePoint.",
       media: [
         {
           type: "button",
@@ -33,12 +33,6 @@ window.sopCardSets["sop-28"] = {
           buttonLabel: "Open SOP in SharePoint",
         },
       ],
-    },
-    {
-      tag: "Introduction",
-      title: "Introduction",
-      summary: "This procedure provides a system and instructions for verification of purchased products and inspections of incoming new materials or products.",
-      body: "This procedure provides a system and instructions for verification of purchased products and inspections of incoming new materials or products.\n\nApplies to on-site verification of purchased materials and products such as HealX, HealX packaging, and any other finished, packaged, and labeled Swift products.",
     },
     {
       tag: "Class Materials",

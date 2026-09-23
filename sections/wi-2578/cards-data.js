@@ -25,7 +25,15 @@ window.sopCardSets["wi-2578"] = {
       summary:
         "This procedure describes the process for verifying Ray 1 device readiness and performance using the Nightingale black body tester, including equipment inspection and execution of TC-014.",
       body:
-        "Successful completion ensures the test is performed correctly and results are properly documented and stored.",
+        "Successful completion ensures the test is performed correctly and results are properly documented and stored.\n\nOpen the full work instruction.",
+      media: [
+        {
+          type: "button",
+          src:
+            "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/DMS-Nightingale-Blackbody-tester---EQUIP-018-Validation-Work-Instruction-%5bQMS-WI-2578_A%5d-8708129643.aspx",
+          buttonLabel: "Open WI in SharePoint",
+        },
+      ],
     },
     {
       tag: "Step 1",

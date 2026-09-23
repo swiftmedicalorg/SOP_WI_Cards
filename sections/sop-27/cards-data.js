@@ -21,10 +21,10 @@ window.sopCardSets["sop-27"] = {
       body: "SOP 27\nLabeling and Packaging",
     },
     {
-      tag: "Button",
-      title: "Open SOP in SharePoint",
-      summary: "Open the complete SOP",
-      body: "Open the complete SOP in SharePoint.",
+      tag: "Introduction",
+      title: "Introduction",
+      summary: "Certification marks must be applied to products in accordance with applicable standards and regulations.",
+      body: "Certification marks must be applied to products in accordance with applicable standards and regulations, and must include the name of the certifying body, the product name, the product model number, and the certification number.\n\nOpen the complete SOP in SharePoint.",
       media: [
         {
           type: "button",
@@ -33,12 +33,6 @@ window.sopCardSets["sop-27"] = {
           buttonLabel: "Open SOP in SharePoint",
         },
       ],
-    },
-    {
-      tag: "Introduction",
-      title: "Introduction",
-      summary: "Certification marks must be applied to products in accordance with applicable standards and regulations.",
-      body: "Certification marks must be applied to products in accordance with applicable standards and regulations, and must include the name of the certifying body, the product name, the product model number, and the certification number.",
     },
     {
       tag: "Regulatory Standards",

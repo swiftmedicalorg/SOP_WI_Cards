@@ -21,10 +21,10 @@ window.sopCardSets["sop-26"] = {
       body: "SOP 26\nProcess Validation",
     },
     {
-      tag: "Button",
-      title: "Open SOP in SharePoint",
-      summary: "Open the complete SOP",
-      body: "Open the complete SOP in SharePoint.",
+      tag: "Introduction",
+      title: "Introduction",
+      summary: "This procedure applies to all general and special processes related to Swift's medical devices.",
+      body: "This procedure applies to all general and special processes related to Swift's medical devices, whether performed in-house or externally at an Approved Supplier site.\n\nOpen the complete SOP in SharePoint.",
       media: [
         {
           type: "button",
@@ -33,12 +33,6 @@ window.sopCardSets["sop-26"] = {
           buttonLabel: "Open SOP in SharePoint",
         },
       ],
-    },
-    {
-      tag: "Introduction",
-      title: "Introduction",
-      summary: "This procedure applies to all general and special processes related to Swift's medical devices.",
-      body: "This procedure applies to all general and special processes related to Swift's medical devices, whether performed in-house or externally at an Approved Supplier site.",
     },
     {
       tag: "Risk Levels",

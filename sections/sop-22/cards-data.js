@@ -21,10 +21,10 @@ window.sopCardSets["sop-22"] = {
       body: "SOP 22\nRisk Management",
     },
     {
-      tag: "Button",
-      title: "Open SOP in SharePoint",
-      summary: "Open the complete SOP",
-      body: "Open the complete SOP in SharePoint.",
+      tag: "Introduction",
+      title: "Introduction",
+      summary: "Swift's risk management process is part development process and part of the QMS.",
+      body: "It includes risk management plans, risk analyses, risk evaluations, and control measures. It meets the requirements of ISO 14971:2019.\n\nOpen the complete SOP in SharePoint.",
       media: [
         {
           type: "button",
@@ -33,12 +33,6 @@ window.sopCardSets["sop-22"] = {
           buttonLabel: "Open SOP in SharePoint",
         },
       ],
-    },
-    {
-      tag: "Introduction",
-      title: "Introduction",
-      summary: "Swift's risk management process is part development process and part of the QMS.",
-      body: "It includes risk management plans, risk analyses, risk evaluations, and control measures. It meets the requirements of ISO 14971:2019.",
     },
     {
       tag: "Process Roles",

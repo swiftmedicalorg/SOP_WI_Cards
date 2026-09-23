@@ -21,10 +21,10 @@ window.sopCardSets["sop-24"] = {
       body: "SOP 24\nPurchasing",
     },
     {
-      tag: "Button",
-      title: "Open SOP in SharePoint",
-      summary: "Open the complete SOP",
-      body: "Open the complete SOP in SharePoint.",
+      tag: "Introduction",
+      title: "Introduction",
+      summary: "This procedure controls for acquisition of products, materials, and services to ensure the quality, safety, and effectiveness of Swift products and services are maintained.",
+      body: "This procedure controls for acquisition of products, materials, and services to ensure the quality, safety, and effectiveness of Swift products and services are maintained.\n\nOpen the complete SOP in SharePoint.",
       media: [
         {
           type: "button",
@@ -33,12 +33,6 @@ window.sopCardSets["sop-24"] = {
           buttonLabel: "Open SOP in SharePoint",
         },
       ],
-    },
-    {
-      tag: "Introduction",
-      title: "Introduction",
-      summary: "This procedure controls for acquisition of products, materials, and services to ensure the quality, safety, and effectiveness of Swift products and services are maintained.",
-      body: "This procedure controls for acquisition of products, materials, and services to ensure the quality, safety, and effectiveness of Swift products and services are maintained.",
     },
     {
       tag: "Purchasing Flow",
