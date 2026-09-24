@@ -28,7 +28,7 @@ window.sopCardSets["wi-3520"] = {
       summary:
         "This work instruction defines the required process for distributing Ray 1 devices and updating the Distribution Record after each device is shipped.",
       body:
-        "This work instruction defines the required process for distributing Ray 1 devices and updating the Distribution Record after each device is shipped.\n\n6.0 Work Instruction\n\n1. Confirm shipment details: verify the Ray 1 device serial number, recipient, shipping address, shipment purpose, and required shipment documentation before shipment.\n\n2. Confirm device release status: verify that the device is approved and released for distribution and is not under quarantine, hold, nonconformance, recall, or any other distribution restriction. Do not ship if any restriction applies.\n\n3. Prepare the Ray device for shipment: follow the applicable packaging and labelling work instruction, include all required documentation, and confirm package markings are appropriate.\n\n4. Ship the Ray device: ship it to the confirmed recipient and address using the approved shipment method, and retain the details needed to complete the Distribution Record.\n\n5. Update the Distribution Record: on the same day as shipment, record the device serial number, recipient, shipment date, shipment purpose, and required shipment details.\n\n6. Manage shipment exceptions: if a shipment is lost, damaged, returned to sender, sent to the wrong recipient, cancelled after preparation, or has a serial-number discrepancy, update the Distribution Record with known information and escalate for assessment and follow-up.\n\n6.1 Demo Use Only Distribution\n\nFor demo shipments, confirm the demo purpose before preparation. Confirm the device is approved and released for distribution and has no quarantine, hold, nonconformance, recall, or other restriction. Update the Distribution Record on the same day with the serial number, demo recipient, shipment date, shipment purpose, required details, and a note that the device is for demo use only. Record and escalate any lost, damaged, returned, misdirected, cancelled, or discrepant demo shipment.\n\nOpen the complete work instruction in SharePoint.",
+        "This work instruction applies whenever a Ray 1 device is prepared for shipment, shipped to a customer, internal stakeholder, or demo recipient, and recorded in the Distribution Record.\n\nOpen the complete work instruction in SharePoint.",
       media: [
         {
           type: "button",
@@ -38,6 +38,78 @@ window.sopCardSets["wi-3520"] = {
           buttonLabel: "Open WI in SharePoint",
         },
       ],
+    },
+    {
+      tag: "6.0 Step 1",
+      title: "6.0 Step 1: Confirm Shipment Details",
+      summary: "Confirm the device and recipient details before shipment.",
+      body: "Confirm the Ray 1 device serial number, recipient, shipping address, shipment purpose, and required shipment documentation before the device is shipped.",
+    },
+    {
+      tag: "6.0 Step 2",
+      title: "6.0 Step 2: Confirm Device Release Status",
+      summary: "Only approved and released devices may be shipped.",
+      body: "Before shipment, confirm the serial number/device is approved and released for distribution and is not under quarantine, hold, nonconformance, recall, or any other distribution restriction. Do not ship the device if any restriction applies.",
+    },
+    {
+      tag: "6.0 Step 3",
+      title: "6.0 Step 3: Prepare the Ray Device",
+      summary: "Prepare the device and shipment materials using the applicable packaging and labelling requirements.",
+      body: "Prepare the Ray 1 device and required shipment materials in accordance with the applicable packaging and labelling work instruction. Ensure all required documentation is included and package markings are appropriate before shipment.",
+      links: [
+        {
+          text: "SIN-WI-2351_D Packaging and Labelling",
+          url: "https://swiftmedical.sharepoint.com/:u:/r/sites/DocumentManagementSystemSpace/SitePages/DMS-Work-Instruction-Sinatra-Packaging-and-Labelling-[SIN-WI--2351_C]-9377873921.aspx?d=we01967df1a9a4465a1d2ca6159958930&csf=1&web=1&e=23hc1Q",
+        },
+      ],
+    },
+    {
+      tag: "6.0 Step 4",
+      title: "6.0 Step 4: Ship the Ray Device",
+      summary: "Ship to the confirmed recipient and address using the approved shipment method.",
+      body: "Ship the Ray 1 device to the confirmed recipient and address using the approved shipment method. Retain shipment details needed to complete the Distribution Record.",
+      links: [
+        {
+          text: "SIN-WI-2937_C Shipment of Ray 1 Devices",
+          url: "https://swiftmedical.sharepoint.com/:u:/r/sites/DocumentManagementSystemSpace/SitePages/[SIN-WI-2937_A]-Work-Instruction--Shipment-of-Ray-1-Devices.aspx?d=w4241be3896d149beb446331417ae59ba&csf=1&web=1&e=tqYkBz",
+        },
+      ],
+    },
+    {
+      tag: "6.0 Step 5",
+      title: "6.0 Step 5: Update the Distribution Record",
+      summary: "Update the Distribution Record on the same day as shipment.",
+      body: "Record the shipped device serial number, recipient, shipment date, shipment purpose, and any required shipment details in the Ray 1 Distribution Record on the same day as shipment.",
+    },
+    {
+      tag: "6.0 Step 6",
+      title: "6.0 Step 6: Manage Shipment Exceptions",
+      summary: "Document and escalate shipment problems or discrepancies.",
+      body: "If a shipment is lost, damaged, returned to sender, sent to the wrong recipient, cancelled after shipment preparation, or if there is any discrepancy between the device shipped and the serial number recorded, update the Distribution Record with the known information and escalate the issue to the appropriate owner for assessment and required follow-up.",
+    },
+    {
+      tag: "6.1 Step 1",
+      title: "6.1 Step 1: Confirm Demo Shipment Purpose",
+      summary: "Confirm that the Ray 1 device is being shipped for demo use only.",
+      body: "Confirm the Ray 1 device is being shipped for demo use only before shipment preparation is completed.",
+    },
+    {
+      tag: "6.1 Step 2",
+      title: "6.1 Step 2: Confirm Device Release Status",
+      summary: "Demo devices must meet the same release and restriction checks before shipment.",
+      body: "Before shipment, confirm the serial number/device is approved and released for distribution and is not under quarantine, hold, nonconformance, recall, or any other distribution restriction. Do not ship the device if any restriction applies.",
+    },
+    {
+      tag: "6.1 Step 3",
+      title: "6.1 Step 3: Update the Distribution Record",
+      summary: "Record demo shipment details on the same day as shipment.",
+      body: "Update the Ray 1 Distribution Record on the same day as shipment. Record the shipped device serial number, demo recipient, shipment date, shipment purpose, and any required shipment details. Include a note that the device is for demo use only.",
+    },
+    {
+      tag: "6.1 Step 4",
+      title: "6.1 Step 4: Manage Shipment Exceptions",
+      summary: "Document and escalate exceptions affecting demo shipments.",
+      body: "If a demo shipment is lost, damaged, returned to sender, sent to the wrong recipient, cancelled after shipment preparation, or if there is any discrepancy between the device shipped and the serial number recorded, update the Distribution Record with the known information and escalate the issue to the appropriate owner for assessment and required follow-up.",
     },
     {
       tag: "Complete",
