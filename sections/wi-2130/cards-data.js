@@ -8,7 +8,7 @@ const cards = [
     type: "button",
     title: "The document is a detailed work instruction for the assembly of the Sinatra (Ray 1) device, a product of Swift. The instruction is authored by Trevor Folska-Fung, a Manufacturing and Procurement Engineer, and edited by Shadman Mahfuz, a Hardware Engineer.",
     button: "Open WI in Sharepoint",
-    target: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/Work Instructions/Work Instruction - Ray 1- Sinatra/DMS-[DRAFT]-WorkInstruction-Ray-1-Assembly-WorkInstruction-(Hardware--Electrical)-[SIN-WI2130_J]-10180526082.aspx"
+    target: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/Work%20Instructions/Work%20Instruction%20-%20Ray%201-%20Sinatra/DMS-[DRAFT]-WorkInstruction-Ray-1-Assembly-WorkInstruction-(Hardware--Electrical)-[SIN-WI2130_J]-10180526082.aspx"
   },
   {
     type: "basic",

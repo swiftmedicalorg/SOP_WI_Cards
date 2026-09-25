@@ -8,7 +8,7 @@ const cards = [
     type: "button",
     title: "The document is a work instruction for positioning the HealX product at Positive Fulfillment, managing orders, and collecting data about past shipments.",
     button: "Open WI in Sharepoint",
-    target: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/Work Instructions/Work Instruction - HealX/DMS-Work-Instruction-HealX-OrderFulfillment-[HLX-WI0222_G]-9895444481.aspx"
+    target: "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/Work%20Instructions/Work%20Instruction%20-%20HealX/DMS-Work-Instruction-HealX-OrderFulfillment-[HLX-WI0222_G]-9895444481.aspx"
   },
   {
     type: "basic",
