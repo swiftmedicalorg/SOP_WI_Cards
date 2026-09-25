@@ -447,10 +447,36 @@ figcaption {
   font-weight: 500;
 }
 
+.card-front p a,
+.card-back p a {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.16em;
+}
+
+.card-front p a {
+  padding: 0 0.12em;
+  border-radius: 2px;
+  color: #c7f1ff;
+  background-color: #10264a;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
 .card-back p a {
   color: var(--accent-text);
-  font-weight: 600;
-  text-decoration: underline;
+}
+
+.card-front p a:focus-visible,
+.card-back p a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.card-front p a:hover,
+.card-back p a:hover {
+  text-decoration-thickness: 0.16em;
 }
 
 .front-action {
