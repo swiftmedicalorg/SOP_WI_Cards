@@ -72,7 +72,7 @@
     const documentUrl = getAllowedMediaSource(currentDeck.documentUrl);
     if (documentUrl) {
       linkElement.href = documentUrl;
-      ctaElement.textContent = currentDeck.linkLabel || "Click to Open in the DMS";
+      ctaElement.textContent = "Click to Open in the DMS";
     } else {
       linkElement.removeAttribute("href");
       ctaElement.textContent = "";

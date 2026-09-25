@@ -4,6 +4,9 @@ window.sopCardSets["wi-3516"] = {
   documentType: "WI",
   documentNumber: "3516",
   documentTitle: "Work Instruction Re-flashing Ray 1 Boards",
+  documentUrl:
+    "./sections/wi-3516/%5BSIN-WI-3516_A%5D%20Work%20Instruction%20Re-flashing%20Ray%201%20Boards.pdf",
+  linkLabel: "Click to Open in the DMS",
   description: "Re-flashing and re-testing previously assembled Ray 1 devices.",
   theme: {
     accent: "#2D6E9F",

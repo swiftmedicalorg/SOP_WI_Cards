@@ -54,7 +54,7 @@
       documentNumber,
       documentTitle: titleCard.description || titleCard.title || setKey,
       documentUrl: buttonUrl,
-      linkLabel: "Open document",
+      linkLabel: "Click to Open in the DMS",
       cards: legacyCards.map(function (card, index) {
         const mediaSource = card.imageUrl || card.image;
         const mappedCard = {
