@@ -5,7 +5,7 @@ window.sopCardSets["sop-36"] = {
   documentNumber: "36",
   documentTitle: "Device Licensing",
   documentUrl:
-    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0036-SOP-Device-Licensing-[QMS-SOP-0036_F]-8251577413.aspx",
+    "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0036-SOP-Device-Licensing-[QMS-SOP-0036_G]-8251577413.aspx",
   linkLabel: "Open SOP in SharePoint",
   theme: {
     accent: "#0057B8",
@@ -28,7 +28,7 @@ window.sopCardSets["sop-36"] = {
         {
           type: "button",
           src:
-            "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0036-SOP-Device-Licensing-[QMS-SOP-0036_F]-8251577413.aspx",
+            "https://swiftmedical.sharepoint.com/sites/DocumentManagementSystemSpace/SitePages/SOPs/DMS-0036-SOP-Device-Licensing-[QMS-SOP-0036_G]-8251577413.aspx",
           buttonLabel: "Open SOP in SharePoint",
         },
       ],
@@ -93,7 +93,7 @@ window.sopCardSets["sop-36"] = {
       tag: "Licenses",
       title: "Licenses",
       summary:
-        "Swift must submit an application and supporting documentation to the DLSD, MDB, and TPD for a medical device license. Swift renews the license annually and informs the Minister within 30 days if the device is discontinued.\n\nIn the US, Swift must submit appropriate applications and support materials to register each product or medical device.",
+        "Swift must submit an application and supporting documentation to the DLSD, MDB, and TPD for a medical device license. Swift renews the license annually and informs the Minister within 30 days if the device is discontinued. For Health Canada licence renewal inquiries, contact license_renewal@hc-sc.gc.ca.\n\nAs an FDA-registered establishment, Swift Medical must annually renew its registration and update product listings as required through FURLS between October 1 and December 31.\n\nIn the US, Swift must submit appropriate applications and support materials to register each product or medical device.",
     },
     {
       tag: "Certificate",
@@ -112,7 +112,7 @@ window.sopCardSets["sop-36"] = {
       tag: "CMDR",
       title: "CMDR",
       summary:
-        "For CMDR-specific requirements, Swift must maintain and make readily available objective evidence of having fulfilled all requirements unique to CMDR.\n\nChange notifications to Regulatory Agencies must be assessed for their impact on the licenses.",
+        "For CMDR-specific requirements, Swift must maintain and make readily available objective evidence of having fulfilled all requirements unique to CMDR.\n\nFor a Class III or IV medical device, assess proposed changes for significance using the latest Health Canada Guidance on the Interpretation of Significant Change, which is organized by types of changes and detailed examples rather than the previous A–H flowchart system. A significant change requires a medical device licence amendment before the modified device is marketed or sold. Document all device changes in the QMS; report non-significant changes to information or documents submitted with the licence application at annual renewal.\n\nChange notifications to Regulatory Agencies must be assessed for their impact on the licenses.",
     },
     {
       tag: "CDRH",
