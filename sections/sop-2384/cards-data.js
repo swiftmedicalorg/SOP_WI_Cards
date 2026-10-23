@@ -21,7 +21,7 @@ const cards = [
   {
     type: 'basic-card',
     title: 'What RA Does',
-    description: 'RA will do the following:\n• search and gather publicly available regulatory information on a monthly basis and record search results in the Regulatory Intelligence Report.\n• assess new or revised regulatory requirements, consult other stakeholders, or forward the relevant stakeholders to evaluate the impact of the requirement.'
+    description: 'RA will do the following:\n• search and gather publicly available regulatory information on a quarterly basis and record search results in the Regulatory Intelligence Report. Where applicable, RRS feeds may also be used as a source for regulatory intelligence activities.\n• assess new or revised regulatory requirements, consult other stakeholders, or forward the relevant stakeholders to evaluate the impact of the requirement.'
   },
   {
     type: 'basic-card',
@@ -31,7 +31,7 @@ const cards = [
   {
     type: 'basic-card',
     title: 'Regulatory Intelligence Reports',
-    description: 'Actions must be taken prior to the effective date of the requirement, and individuals must comply with SOP-0011 Document Control.\n\nRegulatory Intelligence Reports must be created and maintained, and reviews must be conducted at least every month.'
+    description: 'Actions must be taken prior to the effective date of the requirement, and individuals must comply with SOP-0011 Document Control.\n\nRegulatory Intelligence Reports must be created and maintained, and reviews must be conducted at least quarterly.'
   },
   {
     type: 'basic-card',

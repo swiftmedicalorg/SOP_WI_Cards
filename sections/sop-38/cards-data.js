@@ -37,6 +37,65 @@ window.sopCardSets["sop-38"] = {
       ],
     },
     {
+      tag: "References",
+      title: "2.1 Applicable Standards, Guidances and Forms",
+      summary: "Use these regulatory sources and reporting forms applicable to this procedure.",
+      links: [
+        {
+          text: "FDA — 21 CFR Part 803, Medical Device Reporting",
+          url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-803",
+        },
+        {
+          text: "FDA MedWatch Form 3500 — Health professionals",
+          url: "https://www.fda.gov/safety/medical-product-safety-information/medwatch-forms-fda-safety-reporting",
+        },
+        {
+          text: "FDA Form 3500A — Industry (MDR adverse event codes)",
+          url: "https://www.fda.gov/medical-devices/mandatory-reporting-requirements-manufacturers-importers-and-device-user-facilities/mdr-adverse-event-codes",
+        },
+        {
+          text: "FDA Form 3500B — Patients and consumers (online reporting)",
+          url: "https://www.accessdata.fda.gov/scripts/medwatch/index.cfm?action=reporting.home",
+        },
+        {
+          text: "FDA — 21 CFR Part 806, Recalls, Corrections and Removals",
+          url: "https://www.fda.gov/medical-devices/postmarket-requirements-devices/recalls-corrections-and-removals-devices#5",
+        },
+        {
+          text: "FDA Guidance — Medical Device Reporting for Manufacturers",
+          url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/medical-device-reporting-manufacturers",
+        },
+        {
+          text: "Health Canada — CMDR Sections 59–61.1, Mandatory Problem Reporting",
+          url: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-98-282/",
+        },
+        {
+          text: "Health Canada Guidance — Mandatory Medical Device Problem Reporting (June 23, 2021)",
+          url: "https://www.canada.ca/en/health-canada/services/drugs-health-products/reports-publications/medeffect-canada/incident-reporting-medical-devices-guidance-2021.html",
+        },
+        {
+          text: "Health Canada — Mandatory Medical Device Problem Reporting forms: FRM-0237, FRM-0238 and FRM-0255",
+          url: "https://www.canada.ca/en/health-canada/services/drugs-health-products/medeffect-canada/adverse-reaction-reporting/mandatory-medical-device-problem-reporting-form-industry-adverse-reaction-reporting.html",
+        },
+        {
+          text: "Health Canada — Problem reporting",
+          url: "https://www.canada.ca/en/health-canada/services/drugs-health-products/compliance-enforcement/problem-reporting.html",
+        },
+        {
+          text: "Health Canada Guidance — Foreign Risk Notification for Medical Devices (October 2024)",
+          url: "https://www.canada.ca/en/health-canada/services/drugs-health-products/reports-publications/medeffect-canada/foreign-risk-notification-medical-devices-guidance.html",
+        },
+        {
+          text: "Health Canada — List of regulatory agencies and foreign jurisdictions (updated January 2024)",
+          url: "https://www.canada.ca/en/health-canada/services/drugs-health-products/reports-publications/medeffect-canada/regulatory-agencies-sections-61-2-68-3-medical-device-regulations1.html",
+        },
+        {
+          text: "Health Canada Guidance — Incident reporting for medical devices (PDF)",
+          url: "https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-health-products/reports-publications/medeffect-canada/incident-reporting-medical-devices-guidance-2021/incident-reporting-medical-devices-guidance-2021-en.pdf",
+        },
+      ],
+    },
+    {
       tag: "Processing",
       title: "Processing",
       summary: "Swift must do the following:",

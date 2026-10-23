@@ -38,7 +38,7 @@ Responsible Manager oversees recommended rework and reviews method of rework wit
   {
     type: 'basic-card',
     title: 'Returning Products',
-    description: 'Swift requires customers to return medical devices to the manufacturer\'s address if they identify a non-conforming product after delivery or use.\n\nShelf-life testing must be performed on all products within one year of the expiry date, and failed products must be placed in the "Non-Conforming Products" storage area and scrapped.'
+    description: 'Swift requires customers to return medical devices to the manufacturer\'s address if they identify a non-conforming product after delivery or use.\n\nOperators handling returned medical devices must follow the applicable PPE and disinfection requirements. Operators must also follow any appropriate Work Instructions for inspecting returned medical devices available in the DMS.\n\nShelf-life testing must be performed on all products within one year of the expiry date, and failed products must be placed in the "Non-Conforming Products" storage area and scrapped.'
   },
   {
     type: 'quiz',
