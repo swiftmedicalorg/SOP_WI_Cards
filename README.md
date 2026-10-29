@@ -73,6 +73,19 @@ index.html?set=device-validation
 The shared app has no card-set selector or bottom control bar. Cards can be
 advanced with swipe, click zones, or keyboard arrows.
 
+### Ray production navigation
+
+Open `index.html?set=ray-production-navigation` for the Ray 1 navigation hub.
+The three stage card sets are `ray-pre-production`, `ray-production`, and
+`ray-post-production`. All four sets include a top dropdown for each stage and
+document buttons. Existing card sets open locally; documents without card sets
+use their existing SharePoint references. WI 2431, WI 2836, and WI 2856 are
+explicitly marked as pending links until their document URLs are supplied.
+
+Navigation data lives in `sections/ray-production-navigation/cards-data.js`,
+loaded after the document sets and legacy adapter. `navigationSections` enables
+the stage dropdowns; `navigationLinks` adds document buttons to a card.
+
 ## How to update the cards
 
 1. Open `/home/runner/work/SOP_WI_Cards/SOP_WI_Cards/cards-data.js`.

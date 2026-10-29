@@ -82,6 +82,38 @@
   }
 
   function renderDeckPicker() {
+    if (currentDeck.navigationSections && deckPickerElement) {
+      deckPickerElement.innerHTML = "";
+      currentDeck.navigationSections.forEach(function (section) {
+        const label = document.createElement("label");
+        label.className = "deck-picker-field";
+        label.textContent = section.title;
+        const select = document.createElement("select");
+        select.setAttribute("aria-label", `Navigate ${section.title}`);
+        const placeholder = document.createElement("option");
+        placeholder.textContent = "Choose a document or section";
+        placeholder.value = "";
+        select.appendChild(placeholder);
+        [{ label: "Section overview", url: `./index.html?set=${section.key}` }]
+          .concat(section.documents)
+          .forEach(function (item) {
+            const option = document.createElement("option");
+            option.textContent = item.label + (item.url ? "" : " (link pending)");
+            option.value = item.url || "";
+            option.disabled = !item.url;
+            select.appendChild(option);
+          });
+        select.addEventListener("change", function () {
+          const source = getAllowedMediaSource(select.value);
+          if (source) window.location.assign(source);
+        });
+        label.appendChild(select);
+        deckPickerElement.appendChild(label);
+      });
+      deckPickerElement.hidden = false;
+      return;
+    }
+
     if (hasValidRequestedSet || !deckPickerElement) return;
 
     const groups = [
@@ -261,6 +293,19 @@
 
   function renderFrontAction(card) {
     frontActionElement.innerHTML = "";
+    (card.navigationLinks || []).forEach(function (item) {
+      const source = getAllowedMediaSource(item.url);
+      const link = document.createElement(source ? "a" : "span");
+      link.className = "front-section-button";
+      link.textContent = item.label + (source ? "" : " (link pending)");
+      if (source) {
+        link.href = source;
+      } else {
+        link.setAttribute("aria-disabled", "true");
+      }
+      frontActionElement.appendChild(link);
+    });
+
     const linkMedia = (card.media || []).find(function (mediaItem) {
       return mediaItem.type === "button";
     });

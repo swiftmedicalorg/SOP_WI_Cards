@@ -522,6 +522,11 @@ figcaption {
   background: var(--accent);
 }
 
+.front-section-button[aria-disabled="true"] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
 .check-question {
   margin-top: 1.25rem;
   padding: 1rem;
